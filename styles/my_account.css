@@ -1,0 +1,91 @@
+:root {
+  /* Primary Colors */
+  --primary-blue: #4A90E2;
+  --neutral-white: #F5F5F5;
+  --neutral-dark: #2C3E50;
+  --accent-orange: #F5A623;
+  --accent-green: #27AE60;
+  
+  /* Secondary Colors */
+  --light-gray: #e0e0e07d;    /* Gris suave para formularios */
+  --soft-pink: #F7B7D4;     /* Rosa claro para detalles */
+  --soft-blue: #A3C7E7;     /* Azul pastel suave */
+  --soft-yellow: #F8E47D;   /* Amarillo suave */
+  --mint-green: #A3D9A5; 
+
+  /* Font sizes */
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand";       
+}
+
+.main-container {
+  width: 100%;
+  height: 100dvh;
+  display: grid;
+  place-content: center;
+}
+
+.content {
+  display: grid;
+  width: 350px;
+  grid-template-rows: auto 1fr auto;
+}
+
+.page-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: left;
+  font-weight: bold;
+  font-size: var(--lg);
+  margin: 32px 0;
+}
+
+.form-label {
+  font-size: var(--md);
+  font-weight: 600;
+  margin: 4px 0;
+}
+
+.form-input {
+  padding: 8px;
+  height: 42px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--light-gray);
+  margin: 0 0 22px 0;
+}
+
+.form-input:nth-of-type(3) {
+  margin: 0 0 42px 0;
+}
+
+.form-button {
+  height: 42px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--mint-green);
+  color: var(--neutral-white);
+  font-size: var(--lg);
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0;
+}
+
+
+
+
+
