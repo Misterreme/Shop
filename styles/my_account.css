@@ -77,7 +77,7 @@ body {
   height: 42px;
   border-radius: 8px;
   border: none;
-  background-color: var(--mint-green);
+  background-color: var(--primary-blue);
   color: var(--neutral-white);
   font-size: var(--lg);
   font-weight: bold;
