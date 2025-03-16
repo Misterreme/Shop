@@ -26,7 +26,7 @@
 }
 
 body {
-  font-family: "Quicksand";       
+  font-family: "Quicksand"; 
 }
 
 .main-container {
@@ -45,6 +45,11 @@ body {
 .page-form {
   display: flex;
   flex-direction: column;
+}
+
+.page-form div {
+  display: flex;
+  flex-direction: column; 
 }
 
 .title {
@@ -77,12 +82,23 @@ body {
   height: 42px;
   border-radius: 8px;
   border: none;
-  background-color: var(--primary-blue);
-  color: var(--neutral-white);
+  background-color: var(--neutral-white);
+  border: 2px solid var(--primary-blue);
+  color: var(--neutral-dark);
   font-size: var(--lg);
   font-weight: bold;
   cursor: pointer;
-  margin: 0;
+  margin: 10px 0;
+}
+
+@media (max-width: 640px) {
+  .content {
+    height: 100dvh;
+  }
+
+  .page-form {
+    justify-content: space-between;
+  }
 }
 
 
