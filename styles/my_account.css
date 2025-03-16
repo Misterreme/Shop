@@ -56,26 +56,19 @@ body {
   text-align: left;
   font-weight: bold;
   font-size: var(--lg);
-  margin: 32px 0;
+  margin: 52px 0;
 }
 
 .form-label {
   font-size: var(--md);
-  font-weight: 600;
-  margin: 4px 0;
+  font-weight: bold;
+  margin: 0 0 8px 0;
 }
 
-.form-input {
-  padding: 8px;
-  height: 42px;
-  border-radius: 8px;
-  border: none;
-  background-color: var(--light-gray);
-  margin: 0 0 22px 0;
-}
-
-.form-input:nth-of-type(3) {
+.inputs-value {
+  font-size: var(--md);
   margin: 0 0 42px 0;
+  color: var(--soft-pink);
 }
 
 .form-button {
@@ -88,7 +81,7 @@ body {
   font-size: var(--lg);
   font-weight: bold;
   cursor: pointer;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 @media (max-width: 640px) {
