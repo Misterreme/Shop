@@ -44,9 +44,9 @@ body {
 }
 
 .logo {
-  width: 250px;
+  width: 200px;
   place-self: center;
-  margin-bottom: 22px;
+  margin: -100px 0 22px 0;
   display: none;
 }
 
