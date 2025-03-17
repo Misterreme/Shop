@@ -1,0 +1,76 @@
+:root {
+  /* Primary Colors */
+  --primary-blue: #4A90E2;
+  --neutral-white: #F5F5F5;
+  --neutral-dark: #2C3E50;
+  --accent-orange: #F5A623;
+  --accent-green: #27AE60;
+  
+  /* Secondary Colors */
+  --light-gray: #e0e0e07d;    /* Gris suave para formularios */
+  --soft-pink: #F7B7D4;     /* Rosa claro para detalles */
+  --soft-blue: #A3C7E7;     /* Azul pastel suave */
+  --soft-yellow: #F8E47D;   /* Amarillo suave */
+  --mint-green: #A3D9A5; 
+
+  /* Font sizes */
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand";       
+}
+
+.desktop-menu {
+  width: 150px;
+  height: auto;
+  border: 1px solid var(--primary-blue);
+  border-radius: 6px;
+  padding: 20px 20px 0 20px;
+}
+
+.desktop-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.desktop-menu ul li {
+  text-align: end;
+}
+
+.desktop-menu ul li:nth-child(1),
+.desktop-menu ul li:nth-child(2) {
+  font-weight: bold;
+}
+
+.desktop-menu ul li:last-child {
+  padding-top: 20px;
+  border-top: 1px solid var(--primary-blue);
+}
+
+.desktop-menu ul li:last-child a {
+  color: var(--primary-blue);
+  font-size: var(--sm);
+  font-weight: 600;
+}
+
+.desktop-menu ul li:last-child a:hover {
+  text-decoration: underline;
+}
+
+.desktop-menu ul li a {
+  color: var(--neutral-dark);
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
