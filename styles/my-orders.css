@@ -1,0 +1,92 @@
+:root {
+  /* Primary Colors */
+  --primary-blue: #4A90E2;
+  --neutral-white: #F5F5F5;
+  --neutral-dark: #2C3E50;
+  --accent-orange: #F5A623;
+  --accent-green: #27AE60;
+  
+  /* Secondary Colors */
+  --light-gray: #e0e0e07d;    /* Gris suave para formularios */
+  --soft-pink: #F7B7D4;     /* Rosa claro para detalles */
+  --soft-blue: #A3C7E7;     /* Azul pastel suave */
+  --soft-yellow: #F8E47D;   /* Amarillo suave */
+  --mint-green: #A3D9A5; 
+
+  /* Font sizes */
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand";       
+}
+
+.main-container {
+  width: 100%;
+  height: 100dvh;
+  display: grid;
+  place-content: center;
+}
+
+.orders-container {
+  width: 500px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.orders {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: var(--lg);
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+
+.order {
+  display: flex;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order p:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+.order p span:nth-child(1) {
+  font-weight: bold;
+  font-size: var(--md);
+}
+
+.order p span:nth-child(2) {
+  font-weight: normal;
+  font-size: var(--sm);
+  color: var(--soft-pink);
+}
+
+.order div {
+  display: flex;
+  gap: 8px;
+}
+
+.order div p:nth-child(1) {
+  font-weight: bold;
+  font-size: var(--md);
+}
+
+
+
+
