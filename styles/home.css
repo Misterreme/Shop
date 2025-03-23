@@ -1,0 +1,104 @@
+:root {
+  /* Primary Colors */
+  --primary-blue: #4A90E2;
+  --neutral-white: #F5F5F5;
+  --neutral-dark: #2C3E50;
+  --accent-orange: #F5A623;
+  --accent-green: #27AE60;
+  
+  /* Secondary Colors */
+  --light-gray: #e0e0e07d;    /* Gris suave para formularios */
+  --soft-pink: #F7B7D4;     /* Rosa claro para detalles */
+  --soft-blue: #A3C7E7;     /* Azul pastel suave */
+  --soft-yellow: #F8E47D;   /* Amarillo suave */
+  --mint-green: #A3D9A5; 
+
+  /* Font sizes */
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand";       
+}
+
+.main-container {
+  width: 100%;
+  height: 100dvh;
+  display: grid;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px);
+  gap: 26px;
+  place-content: center;
+}
+
+.card {
+  width: 240px;
+}
+
+.card img{
+  width: 240px;
+  height: 240px;
+  border-radius: 20px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0 0 0;
+}
+
+.card-info figure {
+  margin: 0;
+}
+
+.card-info figure img {
+  width: 35px;
+  height: 35px;
+}
+
+.card-info div p:nth-child(1) {
+  font-weight: bold;
+  font-size: var(--lg);
+  margin: 0 0 4px 0;
+}
+
+.card-info div p:nth-child(2) {
+  color: var(--soft-pink);
+  font-size: var(--md);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .cards-container {
+    grid-template-columns: repeat(auto-fill, 140px);
+  }
+  
+  .card {
+    width: 140px;
+  }
+  
+  .card img{
+    width: 140px;
+    height: 140px;
+  }
+}
+
+
+
+
+
+
+
+
