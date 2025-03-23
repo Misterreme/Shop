@@ -46,6 +46,7 @@ body {
   display: flex;
   align-items: center;
   margin: 10px;
+  position: relative;
 }
 
 .menu {
@@ -151,7 +152,7 @@ body {
   .nav {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 0 10px;
+    padding: 0 15px;
     width: 100%;
   }
 
@@ -165,5 +166,11 @@ body {
 
   .navbar-right ul li:nth-of-type(1) {
     display: none;
+  }
+
+  .navbar-right .nav-shopping-car div {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }
