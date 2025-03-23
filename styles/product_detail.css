@@ -37,7 +37,7 @@ body {
   place-self: center;
   background-color: var(--neutral-white);
   border-radius: 8px;
-  margin: 50px;
+  margin: 40px;
 }
 
 .product-image {
