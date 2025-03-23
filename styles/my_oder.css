@@ -34,14 +34,14 @@ body {
   width: 100%;
   height: 100dvh;
   display: grid;
-  place-content: center;
 }
 
 .my-order-container {
   width: 500px;
   /* background: rgb(213, 187, 187); */
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto auto 1fr;
+  margin: 22px auto;
 }
 
 .title {
@@ -60,6 +60,7 @@ body {
   align-items: center;
   font-size: var(--md);
   font-weight: bold;
+  height: 70px;
 }
 
 
@@ -102,4 +103,10 @@ body {
 .order-card p:nth-of-type(2) {
   font-size: var(--md);
   font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  .my-order-container {
+    width: 90%;
+  }
 }
