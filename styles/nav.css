@@ -42,6 +42,12 @@ body {
   background-color: var(--neutral-white);
 }
 
+.nav > a {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
 .menu {
   display: none;
 }
@@ -121,7 +127,7 @@ body {
   color: var(--soft-pink);
 }
 
-.navbar-left ul li a:hover, .navbar-right ul li a:hover {
+.navbar-left ul li a:hover {
   border: 1px solid var(--primary-blue);
   border-radius: 8px;
   color: var(--primary-blue);
