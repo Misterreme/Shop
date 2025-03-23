@@ -39,7 +39,7 @@ body {
   width: 500px;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  place-self: center;
+  margin: 22px auto;
 }
 
 .orders {
