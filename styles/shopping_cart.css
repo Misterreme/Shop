@@ -138,7 +138,7 @@ body {
 
 @media (max-width: 640px) {
   .shopping-cart {
-    width: 90%;
+    width: 100%;
     max-height: 520px;
     margin: 22px 0 0 0;
   }
