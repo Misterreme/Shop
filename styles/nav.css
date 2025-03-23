@@ -26,8 +26,7 @@
 }
 
 body {
-  font-family: "Quicksand";    
-  background-color: var(--soft-blue);
+  font-family: "Quicksand";
   width: 100%;
   height: 100dvh;
 }
