@@ -136,6 +136,23 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 640px) {
+  .shopping-cart {
+    width: 90%;
+    max-height: 520px;
+    margin: 22px 0 0 0;
+  }
+
+  .primary-button {
+    margin: 0 0 22px 0;
+  }
+
+  .shoppings {
+    margin: 0 0 42px 0;
+  }
+  
+}
+
 
 
 
