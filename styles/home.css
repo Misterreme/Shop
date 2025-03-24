@@ -46,10 +46,11 @@ body {
   width: 240px;
 }
 
-.card img{
+.card img {
   width: 240px;
   height: 240px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .card-info {
